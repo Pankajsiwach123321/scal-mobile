@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-container {
+    @apply max-w-[1150px] px-3 mx-auto
+  }
+
+  .row {
+    @apply flex flex-wrap flex-row -mx-3
+  }
+
+  .showme {
+    @apply left-0
+  }
+
+  .over-flow {
+    @apply overflow-hidden
+  }
+
+  .fixer1 {
+    @apply hidden
+  }
+
+  .fixer2 {
+    @apply translate-x-[2px] translate-y-[7px] rotate-[48deg]
+  }
+
+  .fixer3 {
+    @apply w-[21px] translate-x-[1px] translate-y-[-10px] -rotate-45
+  }
+
+  .line-content {
+    @apply after:absolute after:w-[5px] after:h-full after:rounded-lg after:bg-gradient-to-br after:from-[#0076BE] after:to-[#48BF91] after:-left-[23px] after:top-0
+  }
+
+  .myhoverfooter {
+    @apply after:w-0 after:h-[2px] after:absolute after:bg-white after:-bottom-1 after:left-0 after:duration-300
+  }
+
+  .active {
+    @apply border-[1px] border-[#128DFF];
+
+  }
+
+  .bg-bottom-line {
+    @apply after:absolute relative after:w-full after:h-[1px] after:left-[15%] after:-top-[88px] after:content-[url('./public/assets/images/lineheader.png')] after:-z-10
+  }
+
+  .active p {
+    @apply max-h-full block;
+
+  }
+
+  .active h2 {
+    @apply text-white;
+  }
+
+  .active img {
+    @apply rotate-180;
+  }
+
+  .active2 p {
+    @apply max-h-full block;
+
+  }
+
+  .active2 h2 {
+    @apply text-white;
+  }
+
+  .active2 img {
+    @apply rotate-180;
+  }
+
+  .active2 div div.arrow div.plus {
+    @apply hidden
+  }
+
+  .timeline {
+    @apply after:w-[1px] after:h-full after:absolute after:border-[1px] after:border-dashed after:border-white after:top-0 after:left-[50%]
+  }
+
+  .png1 {
+    @apply after:absolute after:-left-[90px] after:-top-[52px] after:bg-png after:w-[58px] after:h-[58px] after:bg-no-repeat;
+  }
+
+  .png2 {
+    @apply after:absolute after:-right-[90px] after:-top-[52px] after:bg-png after:w-[58px] after:h-[58px] after:bg-no-repeat;
+  }
+
+  .smpng2 {
+    @apply before:absolute before:-left-[60px] before:-top-[52px] before:bg-png before:w-[58px] before:h-[58px] before:bg-no-repeat before:block;
+  }
+
+
+}
+
+.my-text {
+  -webkit-text-stroke: 1px #5EB1C5;
+}
+
+select {
+  -webkit-appearance: none;
+  /* -moz-appearance: none; */
+  background-size: 1em;
+}
