@@ -9,9 +9,12 @@ let bgbody = document.querySelector(".bg-bodys");
 let fix1 = document.querySelector(".fix1");
 let fix2 = document.querySelector(".fix2");
 let fix3 = document.querySelector(".fix3");
+let overlay = document.querySelector(".overlay")
 nav.addEventListener("click", function () {
     menubar.classList.toggle("showme")
     menubar.classList.toggle("max-sm:-left-[100%]")
+    overlay.classList.toggle("showme")
+    overlay.classList.toggle("max-sm:-left-[100%]")
     fix1.classList.toggle("fixer1")
     fix2.classList.toggle("fixer2")
     fix3.classList.toggle("fixer3")
@@ -22,6 +25,8 @@ finish.forEach(e => {
     e.addEventListener("click", function () {
         menubar.classList.toggle("showme")
         menubar.classList.toggle("max-sm:-left-[100%]")
+        overlay.classList.toggle("showme")
+        overlay.classList.toggle("max-sm:-left-[100%]")
         fix1.classList.toggle("fixer1")
         fix2.classList.toggle("fixer2")
         fix3.classList.toggle("fixer3")
