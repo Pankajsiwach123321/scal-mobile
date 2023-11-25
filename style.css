@@ -93,8 +93,6 @@
   .smpng2 {
     @apply before:absolute before:-left-[60px] before:-top-[52px] before:bg-png before:w-[58px] before:h-[58px] before:bg-no-repeat before:block;
   }
-
-
 }
 
 .my-text {
@@ -103,6 +101,4 @@
 
 select {
   -webkit-appearance: none;
-  /* -moz-appearance: none; */
-  background-size: 1em;
 }
