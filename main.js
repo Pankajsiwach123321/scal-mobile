@@ -71,12 +71,15 @@ setTimeout(() => {
     document.getElementById("preloder").classList.add("hidden");
     document.body.classList.remove("overflow-hidden");
 }, 2000);
-
+const mybackto = document.getElementById("backtops");
+console.log(mybackto);
+mybackto.addEventListener("click", function () {
+    window.scrollTo(0, 0);
+})
 function backtop() {
     window.scrollTo(0, 0);
 }
 window.addEventListener("scroll", function () {
-    const mybackto = document.getElementById("backtops");
     if (window.scrollY > 500) {
         mybackto.style.display = "block";
     }
