@@ -12,23 +12,23 @@
   }
 
   .showme {
-    @apply left-0
+    @apply max-sm:left-0
   }
 
   .over-flow {
-    @apply overflow-hidden
+    @apply max-sm:overflow-hidden
   }
 
   .fixer1 {
-    @apply hidden
+    @apply max-sm:hidden
   }
 
   .fixer2 {
-    @apply translate-x-[2px] translate-y-[7px] rotate-[48deg]
+    @apply max-sm:translate-x-[2px] max-sm:translate-y-[7px] max-sm:rotate-[48deg]
   }
 
   .fixer3 {
-    @apply w-[21px] translate-x-[1px] translate-y-[-10px] -rotate-45
+    @apply max-sm:w-[21px] max-sm:translate-x-[1px] max-sm:translate-y-[-10px] max-sm:-rotate-45
   }
 
   .line-content {
