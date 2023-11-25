@@ -20,6 +20,16 @@ nav.addEventListener("click", function () {
     fix3.classList.toggle("fixer3")
     bgbody.classList.toggle("over-flow")
 })
+overlay.addEventListener("click", function () {
+    menubar.classList.toggle("showme")
+    menubar.classList.toggle("max-sm:-left-[100%]")
+    overlay.classList.toggle("showme")
+    overlay.classList.toggle("max-sm:-left-[100%]")
+    fix1.classList.toggle("fixer1")
+    fix2.classList.toggle("fixer2")
+    fix3.classList.toggle("fixer3")
+    bgbody.classList.toggle("over-flow")
+})
 
 finish.forEach(e => {
     e.addEventListener("click", function () {
@@ -60,7 +70,7 @@ accordion2.forEach(function (show2) {
 setTimeout(() => {
     document.getElementById("preloder").classList.add("hidden");
     document.body.classList.remove("overflow-hidden");
-}, 5000);
+}, 2000);
 
 function backtop() {
     window.scrollTo(0, 0);

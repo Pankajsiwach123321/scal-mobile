@@ -15,7 +15,8 @@ export default {
       backgroundImage: {
         'hero-section': "url('./public/assets/images/lineheader.png')",
         'footer': "url(./public/assets/images/roadmap-bg.webp)",
-        'png': 'url(./public/assets/images/dot.webp)'
+        'png': 'url(./public/assets/images/dot.webp)',
+        'timelinep': 'url(./public/assets/images/roadmapline.webp)',
       },
       backgroundPosition: {
         'top-custum': 'center top',
@@ -25,6 +26,7 @@ export default {
       },
       animation: {
         'load': 'wiggle 1000ms var(--d) linear infinite',
+        
       },
       keyframes: {
         wiggle: {
@@ -37,7 +39,7 @@ export default {
             opacity: 0.7,
             transform: 'translateY(0)',
           },
-        }
+        },
       }
     },
   },

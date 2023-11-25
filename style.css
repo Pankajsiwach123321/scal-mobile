@@ -49,7 +49,7 @@
   }
 
   .active p {
-    @apply max-h-full block;
+    @apply block;
 
   }
 
@@ -79,7 +79,7 @@
   }
 
   .timeline {
-    @apply after:w-[1px] after:h-full after:absolute after:border-[1px] after:border-dashed after:border-white after:top-0 after:left-[50%]
+    @apply after:w-[1px] after:h-full after:absolute  after:bg-timelinep after:top-0 after:left-[50%]
   }
 
   .png1 {
